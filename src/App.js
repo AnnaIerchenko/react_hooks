@@ -5,6 +5,7 @@ import Timer from './components/Timer';
 import LoginContextProvider from './context/LoginContextProvider';
 import CounterRef from './components/CounterRef'
 import RefToDomEl from './components/RefToDomEl'
+import ReducerCounter from './components/ReducerCounter';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <MainComponent />
       <CounterRef />
       <RefToDomEl />
+      <ReducerCounter />
     </div>
     </LoginContextProvider>
   );
