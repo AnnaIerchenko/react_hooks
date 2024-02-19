@@ -7,6 +7,7 @@ import CounterRef from './components/CounterRef'
 import RefToDomEl from './components/RefToDomEl'
 import ReducerCounter from './components/ReducerCounter';
 import MemoClick from './components/MemoClick';
+import CallbackClick from './components/Callback/CallbackClick';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <RefToDomEl />
       <ReducerCounter />
       <MemoClick />
+      <CallbackClick />
     </div>
     </LoginContextProvider>
   );
