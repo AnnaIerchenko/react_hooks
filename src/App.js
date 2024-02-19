@@ -8,6 +8,7 @@ import RefToDomEl from './components/RefToDomEl'
 import ReducerCounter from './components/ReducerCounter';
 import MemoClick from './components/MemoClick';
 import CallbackClick from './components/Callback/CallbackClick';
+import UseCustomHook from './components/customHook/UseCustomHook';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <ReducerCounter />
       <MemoClick />
       <CallbackClick />
+      <UseCustomHook />
     </div>
     </LoginContextProvider>
   );
