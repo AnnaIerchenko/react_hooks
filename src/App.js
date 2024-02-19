@@ -9,6 +9,7 @@ import ReducerCounter from './components/ReducerCounter';
 import MemoClick from './components/MemoClick';
 import CallbackClick from './components/Callback/CallbackClick';
 import UseCustomHook from './components/customHook/UseCustomHook';
+import FetchData from './components/FetchData';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <MemoClick />
       <CallbackClick />
       <UseCustomHook />
+      <FetchData />
     </div>
     </LoginContextProvider>
   );
