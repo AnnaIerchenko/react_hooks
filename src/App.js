@@ -6,6 +6,7 @@ import LoginContextProvider from './context/LoginContextProvider';
 import CounterRef from './components/CounterRef'
 import RefToDomEl from './components/RefToDomEl'
 import ReducerCounter from './components/ReducerCounter';
+import MemoClick from './components/MemoClick';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <CounterRef />
       <RefToDomEl />
       <ReducerCounter />
+      <MemoClick />
     </div>
     </LoginContextProvider>
   );
